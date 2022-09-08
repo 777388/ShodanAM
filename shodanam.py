@@ -1,10 +1,7 @@
 import os
 import sys
 
-def func(value):
-    return ''.join(value.splitlines())
 i = in.txt
-b = '200'
 o = open(out.txt, 'w')
 query = sys.argv[3]
 prog = sys.argv[1]
