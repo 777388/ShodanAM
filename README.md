@@ -9,4 +9,4 @@ python3 shodanam.py nmap "-v -A" "board of"
 
 just be sure that the options lead up to the IP at the end of the program call.
 
-Output will be sent to out.txt
+Output will be sent to out.txt, IP list will be sent to in.txt
