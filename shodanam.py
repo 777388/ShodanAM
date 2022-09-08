@@ -2,7 +2,7 @@ import os
 import sys
 
 i = 'in.txt'
-o = open(out.txt, 'w')
+o = open('out.txt', 'w')
 query = sys.argv[3]
 prog = sys.argv[1]
 options = sys.argv[2]
