@@ -17,5 +17,6 @@ os.system('shodan parse --fields ip_str '+i+'.json.gz > '+i)
 with open(i, 'r') as file:
     for line in file:
         thing = os.popen(prog+' '+options+' '+line).read()
+        print(thing)
         print(thing, file=o)
 
